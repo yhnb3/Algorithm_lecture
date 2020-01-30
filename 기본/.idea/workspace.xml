@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327b7c01-1f28-43f6-9cea-a1744cd596d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/Flatten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/Flatten.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/min_max.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/min_max.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/구간합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/구간합.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/별찍기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/숫자카드.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/숫자카드.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/염라대왕이름문제" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/염라대왕이름문제.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/전기버스.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘 D2/전기버스.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘 D2/연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘 D2/혁진이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘 D2/혁진이.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘 D2/별찍기.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘 D2/별찍기.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +18,11 @@
     <session id="-1737655180">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,17 +30,17 @@
           <entry key="md" value="1" />
           <entry key="min_max" value="3" />
           <entry key="permutation" value="2" />
-          <entry key="py" value="14" />
+          <entry key="py" value="19" />
           <entry key="sorting" value="1" />
-          <entry key="txt" value="9" />
+          <entry key="txt" value="10" />
           <entry key="염라대왕이름문제" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="21" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,7 +48,7 @@
           <entry key="dummy" value="17" />
           <entry key="min_max" value="51" />
           <entry key="permutation" value="397" />
-          <entry key="py" value="3530" />
+          <entry key="py" value="5515" />
           <entry key="sorting" value="404" />
           <entry key="txt" value="4" />
           <entry key="염라대왕이름문제" value="2160" />
@@ -66,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="6542" />
+          <entry key="Python" value="8527" />
         </counts>
       </usages-collector>
     </session>
@@ -74,10 +65,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/알고리즘 D2/별찍기.py">
+        <entry file="file://$PROJECT_DIR$/알고리즘 D2/연습.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="418">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -115,14 +106,17 @@
         <option value="$PROJECT_DIR$/알고리즘 D2/염라대왕이름문제" />
         <option value="$PROJECT_DIR$/알고리즘 D2/Flatten.txt" />
         <option value="$PROJECT_DIR$/알고리즘 D2/Flatten.py" />
-        <option value="$PROJECT_DIR$/알고리즘 D2/연습.py" />
         <option value="$PROJECT_DIR$/알고리즘 D2/별찍기.py" />
+        <option value="$PROJECT_DIR$/알고리즘 D2/혁진이.txt" />
+        <option value="$PROJECT_DIR$/알고리즘 D2/혁진이.py" />
+        <option value="$PROJECT_DIR$/알고리즘 D2/연습.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1010" />
-    <option name="width" value="921" />
+    <option name="y" value="20" />
+    <option name="width" value="850" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -170,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.permutation">
+  <component name="RunManager" selected="Python.연습">
     <configuration name="연습" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="기본" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,6 +178,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘 D2/연습.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="별찍기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="기본" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘 D2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘 D2/별찍기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="혁진이" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="기본" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘 D2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘 D2/혁진이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,27 +375,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="min_max" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="기본" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘 D2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘 D2/min_max" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="permutation" type="PythonConfigurationType" factoryName="Python">
       <module name="기본" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -383,17 +398,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.permutation" />
-      <item itemvalue="Python.min_max" />
       <item itemvalue="Python.min_max (2)" />
       <item itemvalue="Python.연습" />
       <item itemvalue="Python.Flatten" />
+      <item itemvalue="Python.별찍기" />
+      <item itemvalue="Python.혁진이" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.연습" />
+        <item itemvalue="Python.혁진이" />
+        <item itemvalue="Python.별찍기" />
         <item itemvalue="Python.Flatten" />
         <item itemvalue="Python.min_max (2)" />
-        <item itemvalue="Python.min_max" />
       </list>
     </recent_temporary>
   </component>
@@ -410,23 +427,33 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.115911484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1670179" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29533115" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3159609" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -434,6 +461,31 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/알고리즘 D2/혁진이.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/알고리즘 D2/연습.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>l_h[i][j]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.py" />
@@ -540,11 +592,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/알고리즘 D2/연습.py" />
     <entry file="file://$PROJECT_DIR$/알고리즘 D2/별찍기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알고리즘 D2/혁진이.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="699" selection-start-line="699" selection-end-line="699" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알고리즘 D2/혁진이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="117" column="23" lean-forward="true" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알고리즘 D2/연습.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

@@ -1,17 +1,21 @@
-star =[[" " for a in range(9)] for b in range(9)]
-def dot_star(a=0, b=0, s=9):
-    if s == 3:
-        for i in range(0, s):
-            for j in range(0, s):
-                if (i//(s/3) != 1) or (j//(s/3) != 1):
-                    star[i+a][j+b] = "*"
-        return star
-    else:
-        return dot_star(0, 0, s//3), dot_star(3, 0, s//3), dot_star(6, 0, s//3), dot_star(0, 3, s//3), dot_star(0, 6, s//3), dot_star(6, 3, s//3), dot_star(6, 6, s//3), dot_star(3, 6, s//3)
+# star =[[" " for a in range(81)] for b in range(81)]
+# def dot_star(a = 0, b = 0, s = 27):
+#
+#     if s == 3:
+#         for i in range(0+a, s+a):
+#             for j in range(0+b, s+b):
+#                 if ((i % s)//(s/3) != 1) or ((j % s)//(s/3) != 1):
+#                     star[i][j] = "*"
+#         return star
+#     else:
+#         return dot_star(a, b, s//3), dot_star(a+s//3, b, s//3), dot_star(a+(s//3)*2, b, s//3), dot_star(a, b+s//3, s//3), dot_star(a, b+(s//3)*2, s//3), dot_star(a+(s//3)*2, b+s//3, s//3), dot_star(a+(s//3)*2, b+(s//3)*2, s//3), dot_star(a+s//3, b+(s//3)*2, s//3)
+#
+# dot_star(0, 0, 81)
+#
+# for i in range(81):
+#     for j in range(81):
+#         print(star[i][j], end="")
+#     print("")
 
-dot_star(0, 0, 9)
 
-for i in range(9):
-    for j in range(9):
-        print(star[i][j], end="")
-    print("")
+print(3&1)
