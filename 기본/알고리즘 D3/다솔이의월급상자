@@ -1,0 +1,13 @@
+import sys
+sys.stdin = open('다솔이의월급상자.txt')
+
+T = int(input())
+
+for test_case in range(1, T + 1):
+    S = int(input())
+    sum = 0
+    for i in range(S):
+        a, b = map(float, input().split())
+        sum += a * b
+
+    print('#{} {}'.format(test_case, sum))

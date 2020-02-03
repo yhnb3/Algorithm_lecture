@@ -1,0 +1,54 @@
+import random
+a = list()
+b = list()
+sum = 0
+for i in range(1, 26):
+    a.append(i)
+b = random.sample(a, 25)
+
+s = [[0 for i in range(5)] for j in range(5)]
+for i in range(5):
+    for j in range(5):
+        s[i][j] = b[-1]
+        b.pop()
+
+for i in range(5):
+    for j in range(5):
+        if i == 0:
+            if j == 0:
+                sum += abs(s[i][j] - s[i + 1][j])
+                sum += abs(s[i][j] - s[i][j + 1])
+            elif 0 < j < 4:
+                sum += abs(s[i][j] - s[i + 1][j])
+                sum += abs(s[i][j] - s[i][j + 1])
+                sum += abs(s[i][j] - s[i][j - 1])
+            else:
+                sum += abs(s[i][j] - s[i + 1][j])
+                sum += abs(s[i][j] - s[i][j - 1])
+        elif 0 < i < 4:
+            if j == 0:
+                sum += abs(s[i][j] - s[i + 1][j])
+                sum += abs(s[i][j] - s[i][j + 1])
+                sum += abs(s[i][j] - s[i - 1][j])
+            elif 0 < j < 4:
+                sum += abs(s[i][j] - s[i + 1][j])
+                sum += abs(s[i][j] - s[i][j + 1])
+                sum += abs(s[i][j] - s[i][j - 1])
+                sum += abs(s[i][j] - s[i - 1][j])
+            else:
+                sum += abs(s[i][j] - s[i + 1][j])
+                sum += abs(s[i][j] - s[i][j - 1])
+                sum += abs(s[i][j] - s[i - 1][j])
+        else:
+            if j == 0:
+                sum += abs(s[i][j] - s[i][j + 1])
+                sum += abs(s[i][j] - s[i - 1][j])
+            elif 0 < j < 4:
+                sum += abs(s[i][j] - s[i][j + 1])
+                sum += abs(s[i][j] - s[i][j - 1])
+                sum += abs(s[i][j] - s[i - 1][j])
+            else:
+                sum += abs(s[i][j] - s[i][j - 1])
+                sum += abs(s[i][j] - s[i - 1][j])
+
+print(sum)
