@@ -9,35 +9,31 @@ for i in range(9):
 
 def sdoku(b):
     if b == len(blank_list):
-        if is_sdoku(b-1):
-            return 1
+        return 1
 
+    x, y = blank_list[b]
     for i in range(1, 10):
-        s[blank_list[b][0]][blank_list[b][1]] = i
-        if sdoku(b + 1):
-            return 1
+        if is_sdoku(x, y, i):
+            s[x][y] = i
+            if sdoku(b + 1):
+                return 1
+            s[x][y] = 0
 
+def is_sdoku(a, b, k):
+    if k in s[a]:
+        return False
 
-
-def is_sdoku(a, o):
-    for k in range(10):
-        if k != blank_list[a][0]:
-            if s[k][blank_list[a][1]] == o:
-                return False
-
-    for k in range(10):
-        if k != blank_list[a][1]:
-            if s[blank_list[a][0]][k] == o:
-                return False
+    for i in range(9):
+        if k == s[i][b]:
+            return False
 
     for i in range(3):
-        if i != blank_list[a][0]:
-            for j in range(3):
-                if j != blank_list[a][1]:
-                    if o == s[i][j]:
-                        return False
+        for j in range(3):
+            if k == s[(a//3) * 3 + i][(b//3) * 3 + j]:
+                return False
 
     return True
+
 
 
 sdoku(0)

@@ -4,7 +4,7 @@ sys.stdin = open('다솔이의다이아몬드.txt')
 T = int(input())
 
 for test_case in range(1, T + 1):
-    s = input()4
+    s = input()
     if len(s) == 1:
         print('..#..')
         print('.#.#.')
