@@ -21,18 +21,13 @@ for test_case in range(1, T + 1):
                     else:
                         flag = True
                         break
-                else:
-                    flag = True
-                    break
             elif S[i] == ')':
                 if stackk:
                     if '(' == stackk[-1]:
                         stackk.pop()
                     else:
                         flag = True
-                else:
-                    flag = True
-                    break
+                        break
 
     if stackk:
         print('#{} 0'.format(test_case))

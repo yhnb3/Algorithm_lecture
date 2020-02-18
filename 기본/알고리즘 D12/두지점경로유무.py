@@ -30,10 +30,8 @@ for test_case in range(1, T + 1):
     visit[start] = 1
     is_end(start)
 
-    if result[0]:
-        print('#{} 1'.format(test_case))
-    else:
-        print('#{} 0'.format(test_case))
+    print('#{} {}'.format(test_case, result[0]))
+
 
 
 

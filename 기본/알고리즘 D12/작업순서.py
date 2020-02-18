@@ -3,14 +3,15 @@ sys.stdin = open('작업순서.txt')
 
 T = 10
 
-def dfs_rank(a):
+
+def dfs_rank(x):
     for j in range(1, V + 1):
         count = 0
         for z in range(len(s[j])):
             if visit[s[j][z]] != 1:
                 count += 1
 
-        if not count and (a in s[j]):
+        if not count and (x in s[j]):
             if visit[j] == 0:
                 visit[j] = 1
                 result.append(j)

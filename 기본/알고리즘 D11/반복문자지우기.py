@@ -5,7 +5,7 @@ T = int(input())
 
 for test_case in range(1, T + 1):
     S = input()
-    str_test =[1] * (len(S) + 1)
+    str_test = [1] * (len(S) + 1)
     stackk = []
     idx_list = []
 

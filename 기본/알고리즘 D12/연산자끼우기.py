@@ -35,7 +35,9 @@ def calculator(ans, b):
             cal_cul[i] += 1
             ans = c
 
+
 calculator(s[0], 0)
+
 
 print(max_len[0])
 print(min_len[0])
